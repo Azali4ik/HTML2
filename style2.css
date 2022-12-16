@@ -45,6 +45,19 @@ header{
 .po1{
     width: 32px;
 }
+.ka{
+    position: absolute;
+    margin:-48px -19px 0px;
+    width: 19px;
+    filter: opacity(0%);
+    color: #222222;
+}
+.piati{
+    position: absolute;
+    margin: -54px -23px 0px;
+    width: 7px;
+    color: #222222;
+}
 
 footer{
     display: grid;
@@ -106,7 +119,7 @@ s{
     line-height: 29px;
     text-align: center;
     color:   rgba(241, 109, 127, 1);
-    width: 100;
+
     width: 100px;
 }
 .w1{
@@ -116,7 +129,7 @@ s{
 .w2{
     grid-auto-columns: 1fr; 
     grid-template-rows: 1fr; 
-    grid-column: 1 / 3;
+    grid-column: 1 / 4;
 }
 
 .w3{
@@ -126,7 +139,7 @@ s{
 
 .w4{
     position: absolute;
-    margin: -184px 0px;
+    margin: 0px -1140px;
 }
 
 .w5{
@@ -250,3 +263,155 @@ h3{
     color: #F26376;
     margin-top: 25px;
 }
+@media(max-width:768px) {
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 768px;
+        align-content: space-evenly;
+    }
+    .logo{
+        gap: 31px ;
+        width: 169px;
+    }
+    .nav{
+        display: flex;
+        width: 310px;
+        gap: 25px;
+        justify-content: flex-end;
+    }
+    footer{
+
+        width: 769.57px;
+    }
+    .meen{
+        width: 386px;
+    }
+    .conter{
+       
+        width: 311px;
+        padding: 0px;
+        width: 230px;
+    }
+    .zagalovok{
+        width: 283px;
+        font-size: 24px;
+        
+    }
+    .zagalovok1{
+        width: 350px;
+        font-size: 24px;
+    }
+    .zagalovok2{
+        width: 283px;
+        font-size: 24px;
+
+    }
+    .cherta{
+        width: 12px;
+    }
+    article{
+        padding: 16px;
+        width: 768px;
+    }
+    .foto{
+        justify-content: center;
+        display: grid;
+        Width: 736px; 
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 19.9px;
+    }
+    .w1{
+        width: 232.39px;
+    }
+    .w5{
+        width: 153.93px;
+        margin: -100px 60px;
+        font-family: sans-serif;
+        font-style: normal;
+        display: grid;
+        justify-items: stretch;
+    }
+    s{
+        font-family: sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        width: 153.93px;
+    }
+    .w3{
+        width: 231.97px;
+        margin: 0px -232px;
+    }
+    .w{
+        width: 232px;
+    }
+    .w2{
+        grid-auto-columns: 1fr; 
+        grid-template-rows: 1fr; 
+        grid-column: 1 / 4;
+        width: 734.58px;
+    }
+    .w6{ 
+        display: grid;
+        justify-items: stretch;
+        width: 159.92px;
+        margin: -80px 300px;
+    }
+    .w4{
+        width: 734.58px;
+        margin: 0px -735px;
+    }
+    .acce{
+        width: 734.58px;
+    }
+    main{
+        display: grid;
+        padding: 16px;
+        justify-content: start
+    }
+    .text{
+        width: 735px;
+    }
+    .main1{
+        display: grid;
+        grid-template-columns:  1fr 1fr  ;
+        grid-template-rows: 1fr 1fr 1fr ;
+        width: 360px;
+        gap: 16px;    
+    }
+    .M{
+        gap: 16px;
+    }
+    .hz{
+        display: flex;
+        width: 768px;
+    }
+    .hz2{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F26376;
+        margin-top: 15px;
+    }
+    .ka{
+        filter: opacity(100%);
+        position: absolute;
+        margin:-25px -10px 0px;
+        width: 19px;
+        color: #F16D7F ;
+    }
+    .piati{
+        position: absolute;
+        margin:-25px -12px 0px;
+        width: 7px;
+        color: #FFFFFF;
+    }
+
+
+}
+    
