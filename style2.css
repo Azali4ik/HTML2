@@ -8,7 +8,7 @@ body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     background: #ffffff;
-    position: absolute;
+   
 }
 
 header{
@@ -43,6 +43,9 @@ header{
 }
 
 .po1{
+    width: 32px;
+}
+.po12{
     width: 32px;
 }
 .ka{
@@ -414,4 +417,166 @@ h3{
 
 
 }
-    
+@media(max-width:320px){
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 320px;
+        align-content: space-evenly;
+    }
+    .logo{
+        gap: 31px ;
+        width: 169px;
+    }
+    .nav{
+        display: flex;
+        width: 111px;
+        gap: 25px;
+        justify-content: flex-end;
+    }
+    .chel{
+        display: none;
+    }
+    .ka{
+        display: none;
+    }
+    .po12{
+        display: none;
+    }
+    .meen{
+        display: none;
+    }
+    .piati{
+        display: none;
+    }
+
+    footer{
+        display: flex;
+        height: 363px;
+        width: 320px;
+        justify-content: center;
+    }
+
+    .zagalovok{
+        width: 236px;
+    }
+    .zagalovok1{
+        width: 320px;
+        font-size: 14px;
+        line-height: 31px;
+    }
+    .zagalovok2{
+        width: 283px;
+        font-size: 14px;
+    }
+    .cherta{
+        width: 10px;
+    }
+    article{
+        padding: 16px;
+        width: 320px;
+    }
+    .foto{
+        display: flex;
+        flex-wrap: wrap;
+ 
+        Width: 320px; 
+        gap: 21px;
+    }
+    .w1{
+        width: 300px;
+    }
+    .w5{
+        width: 153.93px;
+        margin: -100px 60px;
+        font-family: sans-serif;
+        font-style: normal;
+        display: grid;
+        justify-items: stretch;
+    }
+    s{
+        font-family: sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        width: 153.93px;
+    }
+    .w3{
+        width: 300px;
+        margin: 0px -300px;
+       
+    }
+    .w{
+        width: 300px;
+    }
+    .w2{
+        width: 300px;
+    }
+    .w6{ 
+ 
+        width: 195.92px;
+        margin: -48px 71px;
+    }
+    .w4{
+        width: 300px;
+        margin: 0px -300px;
+    }
+    .acce{
+        width: 300px;
+    }
+    main{
+        
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        width: 320px;
+        
+    }
+    .text{
+        width: 320px;
+    }
+    .main1{
+        display: flex;
+        width: 320px;
+        flex-direction: column;
+    }
+       
+    }
+    .M{
+        width: 320px;
+        gap: 16px;
+    }
+    .M21{
+        width: 320px;
+    }
+    .hz{
+        display: flex;
+        width: 768px;
+    }
+    .hz2{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F26376;
+        margin-top: 15px;
+    }
+    .ka{
+        filter: opacity(100%);
+        position: absolute;
+        margin:-25px -10px 0px;
+        width: 19px;
+        color: #F16D7F ;
+    }
+    .piati{
+        position: absolute;
+        margin:-25px -12px 0px;
+        width: 7px;
+        color: #FFFFFF;
+    }
+
+
+
+
