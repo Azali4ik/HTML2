@@ -5,12 +5,35 @@
     text-decoration: none;
 } 
 body {
+    
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     background: #ffffff;
    
 }
 
+
+.dropdown {
+    margin-right: 10px;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.menu-active {
+    display: block;
+}
+
+
+
+.nimucss{
+    display: flex;
+    width:232px ;
+    background: #F1E4E6;
+    flex-direction: column;
+    position: absolute;
+}
 header{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -74,6 +97,7 @@ footer{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     background: #F1E4E6;
+    
 }
 
 .zagalovok{
@@ -234,6 +258,8 @@ main{
 }
 .rectangle{
     position: absolute;
+
+    
 }
 
 h1{
@@ -286,7 +312,7 @@ h3{
     color: #ffffff;
     background: #F16D7F;
 }
-    
+
 
 @media(max-width:768px) {
     header{
@@ -324,7 +350,7 @@ h3{
         
     }
     .zagalovok1{
-        width: 350px;
+        
         font-size: 24px;
     }
     .zagalovok2{
@@ -383,11 +409,11 @@ h3{
         display: grid;
         justify-items: stretch;
         width: 159.92px;
-        margin: -80px 300px;
+      
     }
     .w4{
         width: 734.58px;
-        margin: 0px -735px;
+       
     }
     .acce{
         width: 734.58px;
@@ -410,32 +436,7 @@ h3{
     .M{
         gap: 16px;
     }
-    .hz{
-        display: flex;
-        width: 768px;
-    }
-    .hz2{
-        font-family: sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 19px;
-        color: #F26376;
-        margin-top: 15px;
-    }
-    .ka{
-        filter: opacity(100%);
-        position: absolute;
-        margin:-25px -10px 0px;
-        width: 19px;
-        color: #F16D7F ;
-    }
-    .piati{
-        position: absolute;
-        margin:-25px -12px 0px;
-        width: 7px;
-        color: #FFFFFF;
-    }
+    
 
 
 }
@@ -483,7 +484,7 @@ h3{
         width: 236px;
     }
     .zagalovok1{
-        width: 320px;
+        
         font-size: 14px;
         line-height: 31px;
     }
@@ -566,6 +567,11 @@ h3{
     .M{
         width: 320px;
         gap: 16px;
+    }
+    .rectangle{
+        position: absolute;
+        width: 320px;
+        
     }
     .M21{
         width: 320px;
