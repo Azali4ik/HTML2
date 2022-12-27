@@ -244,6 +244,7 @@ main{
 .M{
     flex-direction: column;
     gap: 16px;
+    background: #F8F8F8;
 }
 
 h1{
@@ -373,6 +374,7 @@ h3{
         grid-template-columns: 1fr 1fr;
         width: 768px;
         align-content: space-evenly;
+        height: 75px;
     }
     .logo{
         gap: 31px ;
@@ -380,7 +382,7 @@ h3{
     }
     .nav{
         display: flex;
-        width: 310px;
+        width: 372px;
         gap: 25px;
         justify-content: flex-end;
     }
@@ -392,28 +394,27 @@ h3{
         width: 386px;
     }
     .conter{
-       
-        width: 283px;
-        padding: 0px;
+        padding: 40px;
         width: 230px;
     }
     .zagalovok{
-        width: 283px;
-        font-size: 18px;
-        padding-top: 0px;
+        width: 359px;
+        font-size: 40px;
+        padding-top: 15px;
+        padding-left: 26px;
         
     }
     .zagalovok1{
         width: 350px;
-        font-size: 18px;
+       font-size: 28px;
     }
     .zagalovok2{
-        width: 283px;
-        font-size: 18px;
-
+      font-size: 28px;
+      padding: 0;
     }
     .cherta{
-        width: 10px;
+        width: 12px;
+        padding-top: 10px;
     }
     article{
         padding: 16px;
@@ -426,25 +427,33 @@ h3{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 19.9px;
+        padding-top: 46px;
     }
     .w1{
         width: 232.39px;
     }
     .w5{
-        width: 153.93px;
-        margin: -100px 60px;
+      
         font-family: sans-serif;
         font-style: normal;
         display: grid;
         justify-items: stretch;
+        font-size: 15.5px;
+        padding-top: 5px;
+        
+            
     }
     s{
         font-family: sans-serif;
         font-style: normal;
         font-size: 16px;
-        line-height: 19px;
+        line-height: 26px;
         text-align: center;
         width: 153.93px;
+        font-size: 24px;
+        padding-top: 5px;
+        letter-spacing: 0px;
+        font-weight: bold
     }
     .w3{
         width: 231.97px;
@@ -460,10 +469,11 @@ h3{
         width: 734.58px;
     }
     .w6{ 
+      font-family: sans-serif;
+        font-style: normal;
         display: grid;
         justify-items: stretch;
-        width: 159.92px;
-        margin: -80px 300px;
+        font-size: 15.5px;
     }
     .w4{
         width: 734.58px;
@@ -475,20 +485,65 @@ h3{
     main{
         display: grid;
         padding: 16px;
-        justify-content: start
+        justify-content: start;
+        padding-top: 40px;
+    }
+    .na1{
+        padding: 5px;  
+    }
+    .na2{
+        padding: 0px;  
     }
     .text{
         width: 735px;
+        padding-bottom: 70px;
+         
     }
     .main1{
         display: grid;
         grid-template-columns:  1fr 1fr  ;
         grid-template-rows: 1fr 1fr 1fr ;
         width: 360px;
-        gap: 16px;    
+        gap: 16px;  
+        
+        
     }
     .M{
         gap: 16px;
+        
+    }
+    .ELLERY{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        color: #000000;
+        padding: 18px;
+    }
+
+    .KNOWN{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #5D5D5D;
+        padding: 16px;
+        padding-top: 0px;
+    }
+
+    
+    .chena{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F16D7F;
+         padding: 18px;
+        padding-top: 0px;
+
     }
     .hz{
         display: flex;
@@ -572,9 +627,13 @@ h3{
         line-height: 12px;
         color: #F16D7F;
     }
-
+    .all{
+    padding-top: 35px;
+    }
 
 }
+
+
 @media(max-width:320px){
     header{
         display: grid;
@@ -583,14 +642,19 @@ h3{
         align-content: space-evenly;
     }
     .logo{
-        gap: 31px ;
-        width: 169px;
+        width:200px;
+        padding: 0px;
     }
     .nav{
         display: flex;
         width: 111px;
         gap: 25px;
         justify-content: flex-end;
+    }
+
+    .cherta{
+        width: 12px;
+        padding-top: 20px;
     }
     .chel{
         display: none;
@@ -614,21 +678,33 @@ h3{
         width: 320px;
         justify-content: center;
     }
-
+    .conter{
+        padding: 0px;
+        width: 300px;    
+    }
     .zagalovok{
-        width: 236px;
+        width: 320px;
+        font-size: 40px;
+        line-height: 40px;
+    
+   
+      
+        
     }
     .zagalovok1{
         width: 320px;
-        font-size: 14px;
-        line-height: 31px;
+        font-size: 20px;
+        
+      
+      
     }
     .zagalovok2{
-        width: 283px;
-        font-size: 14px;
+       
+        font-size: 20px;
+        padding-top: 20px;
     }
     .cherta{
-        width: 8px;
+        width: 12px;
     }
     article{
         padding: 16px;
